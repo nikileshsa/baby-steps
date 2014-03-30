@@ -1,6 +1,6 @@
 #An example Gear Class
 
-Class Gear
+class Gear
  attr_reader :chainring, :cog
  def initialize(chainring, cog)
    @chainring = chainring
@@ -11,4 +11,3 @@ Class Gear
    chaining / cog.to_f
  end
 end
-
