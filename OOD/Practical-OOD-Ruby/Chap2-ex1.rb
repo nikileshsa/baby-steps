@@ -8,6 +8,10 @@ class Gear
  end
 
  def ratio
-   chaining / cog.to_f
+   chainring / cog.to_f
  end
 end
+
+puts Gear.new(52,11).ratio
+puts Gear.new(30,27).ratio
+
